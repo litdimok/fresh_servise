@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreshServises</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <input class="overlay-toggler" type="checkbox" name="" id="menu" />
+    <div class="overlay">
+      <div class="mobile__menu">
+        <nav class="mobile-menu__nav">
+          <a class="mobile-menu__link" href="">Почему Фреш</a>
+          <a class="mobile-menu__link" href="">Для кого</a>
+          <a class="mobile-menu__link" href="">Как работает</a>
+          <a class="mobile-menu__link" href="">Стоимость</a>
+          <a class="mobile-menu__link" href="">FAQ</a>
+        </nav>
+        <label for="menu" class=" mobile-menu__btn">
+          <img
+            class="mobile-menu__img"
+            src="./assets/icons/211651_close_round_icon.png"
+            alt=""
+        /></label>
+      </div>
+    </div>
+    <header class="header">
+      <div class="wrapper">
+        <a class="header__logo-link">
+          <img class="header__logo" src="./assets/icons/fresh.svg" alt="" />
+          <p class="header__logo-text">
+            подбор
+            <br />
+            плана питания
+          </p>
+        </a>
+
+        <nav class="header__nav">
+          <a class="header__nav-link" href="">Почему Фреш</a>
+          <a class="header__nav-link" href="">Для кого</a>
+          <a class="header__nav-link" href="">Как работает</a>
+          <a class="header__nav-link" href="">Стоимость</a>
+          <a class="header__nav-link" href="">FAQ</a>
+        </nav>
+        <div class="header__info">
+          <a class="header__tel" href="">+7 (950) 567-11-22</a>
+          <a class="header__btn" href="#">Регистрация</a>
+        </div>
+        <label for="menu" class="header__nav-label">
+          <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80">
+            <path
+              class="line top"
+              d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+            />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path
+              class="line bottom"
+              d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+            />
+          </svg>
+        </label>
+      </div>
+    </header>
+    <main class="main">
+      <section class="meal-plan">
+        <div class="wrapper">
+          <h1 class="heading">Сервис онлайн-подбора плана питания</h1>
+          <p class="heading__bottom">
+            Пройдите тестирование и получите индивидуальный план питания
+          </p>
+          <ul class="meal-plan__list">
+            <li class="meal-plan__item">
+              <img
+                class="item-img"
+                src="./assets/img/image in card.png"
+                alt=""
+              />
+              <p class="item-text">Годовой рацион на 5 приёмов пищи в день</p>
+            </li>
+            <li class="meal-plan__item">
+              <img
+                class="item-img"
+                src="./assets/img/image in card (1).png"
+                alt=""
+              />
+              <p class="item-text">Индивидуальный расчёт КБЖУ</p>
+            </li>
+            <li class="meal-plan__item">
+              <img
+                class="item-img"
+                src="./assets/img/image in card (2).png"
+                alt=""
+              />
+              <p class="item-text item-text-custom">
+                Расчёт витаминов и микроэлементов
+              </p>
+            </li>
+            <li class="meal-plan__item">
+              <img
+                class="item-img"
+                src="./assets/img/image in card (3).png"
+                alt=""
+              />
+              <p class="item-text">Расчёт водного баланса и питьевого режима</p>
+            </li>
+            <li class="meal-plan__item">
+              <img
+                class="item-img"
+                src="./assets/img/image in card (4).png"
+                alt=""
+              />
+              <p class="item-text">
+                Доступ в закрытый чат в Telegram с членом Ассоциации диетологов
+              </p>
+            </li>
+          </ul>
+          <a class="meal-plan__about" href="">Узнать подробнее</a>
+        </div>
+      </section>
+      <section class="fresh">
+        <div class="wrapper">
+          <h2 class="subheading fresh__heading">Почему Фреш?</h2>
+          <ul class="fresh__list">
+            <li class="fresh__item first-item">
+              <img
+                class="fresh__item-mobile"
+                src="./assets/img/block1_mini.png"
+                alt=""
+              />
+              <h3 class="item-box__header">
+                Сервис заменяет консультацию с диетологом и нутрициологом
+              </h3>
+              <p class="item-box__text">
+                Не третьте время и деньги на консультации с диетологом и
+                нутрициологом. После онлайн тестирования у вас будет
+                индивидуальный план питания с учётом вашего образа жизни и
+                целей.
+              </p>
+            </li>
+            <li class="fresh__item second-item">
+              <img
+                class="fresh__item-mobile"
+                src="./assets/img/block_2mini.png"
+                alt=""
+              />
+              <h3 class="item-box__header">
+                Опираясь на уже сформированные пищевые привычки, высока
+                вероятность допустить ошибку
+              </h3>
+              <p class="item-box__text">
+                Исследование Ассоциации диетологов показало, что вероятность
+                придерживаться здорового питания без консультаций с диетологом —
+                36%.
+              </p>
+            </li>
+            <li class="fresh__item third-item">
+              <img
+                class="fresh__item-mobile"
+                src="./assets/img/block3_mini.png"
+                alt=""
+              />
+              <h3 class="item-box__header item-box__header-bottom">
+                Перестаньте доверять старым привычкам, интуиции и принимайте
+                решения<br />
+                на основе точных данных
+              </h3>
+              <p class="item-box__text item-box__text-bottom">
+                Исследование Ассоциации диетологов показало,<br />
+                что вероятность придерживаться здорового питания после сервиса
+                онлайн-подбора плана питания — 88%.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-health">
+        <div class="wrapper">
+          <h2 class="subheading about-health__header">
+            Для всех,<br>
+            кто заботится о здоровье
+          </h2>
+          <ul class="about-health__list">
+            <li class="about-health__item about-health__item-mobile">
+              <img src="./assets/icons/icon (1).svg" alt="" class="about-health__item-img" />
+              <div class="about-health__item-content">
+                <h3 class="about-health__item-header">Вы категоричны</h3>
+                <p class="about-health__item-text">
+                  Перепробовали различные диеты и хотите вписать здоровое
+                  питание в свою жизнь раз и навсегда.
+                </p>
+              </div>
+            </li>
+            <li class="about-health__item">
+              <img src="./assets/icons/icon (1).svg" alt="" class="about-health__item-img" />
+              <div class="about-health__item-content">
+                <h3 class="about-health__item-header">Только начинаете</h3>
+                <p class="about-health__item-text">
+                  Хотите начать, но обилие различной информации не даёт понять,
+                  как сделать первый шаг.
+                </p>
+              </div>
+            </li>
+            <li class="about-health__item">
+              <img src="./assets/icons/icon (1).svg" alt="" class="about-health__item-img" />
+              <div class="about-health__item-content">
+                <h3 class="about-health__item-header">Заботитесь о близких</h3>
+                <p class="about-health__item-text">
+                  Много времени уделяете семье, детям и хотите построить свою
+                  систему здорового питания.
+                </p>
+              </div>
+            </li>
+            <li class="about-health__item">
+              <img src="./assets/icons/icon (1).svg" alt="" class="about-health__item-img" />
+              <div class="about-health__item-content">
+                <h3 class="about-health__item-header">Часто заняты</h3>
+                <p class="about-health__item-text">
+                  Много работаете и не успеваете разобраться как правильно
+                  создать план питания.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="how-it-work">
+        <div class="wrapper">
+          <h2 class="subheading how-it-work__header">Как это работает?</h2>
+          <ol class="list">
+            <li class="step">
+              <div class="step__counter"></div>
+              <p class="step__text">Заполняете анкету</p>
+            </li>
+            <li class="step">
+              <div class="step__counter"></div>
+              <p class="step__text">Указываете контактные данные</p>
+            </li>
+            <li class="step">
+              <div class="step__counter"></div>
+              <p class="step__text">Приобретаете доступ к платформе</p>
+            </li>
+            <li class="step last-step">
+              <div class="step__counter"></div>
+              <p class="step__text">
+                На платформе нажимаете «Подобрать план питания»
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="best-offer">
+        <div class="wrapper">
+          <div class="best-offer__main-block">
+            <h3 class="header-price">Лучшее предложение среди конкурентов</h3>
+            <div class="block-price">
+              <span class="new-price">1 890 ₽</span>
+              <span class="old-price">5 690 ₽</span>
+            </div>
+            <button class="access-btn">Получить доступ</button>
+          </div>
+          <div class="best-offer__content">
+            <h4 class="content__header">Индивидуальный подбор плана питания</h4>
+            <p class="list-header">План питания будет включать в себя:</p>
+            <ol class="content__list">
+              <li class="content__item">
+                Годовой сбалансированный рацион на 5 приёмов пищи в день.
+                Базовая версия рациона адаптирована для людей по бюджету и
+                составу (без киноа и лосося). Расширенные варианты рациона
+                вариативны по бюджету и ограничениям;
+              </li>
+              <li class="content__item">
+                Расчёт КБЖУ. Норму и план потребления с рекомендациями от
+                платформы;
+              </li>
+              <li class="content__item">
+                Расчёт приёма витаминов, микроэлементов к годовому рациону;
+              </li>
+              <li class="content__item">
+                Норму водного баланса и питьевой режим.
+              </li>
+            </ol>
+          </div>
+          <ul class="best-offer__list">
+            <li class="best-offer__item best__offer-first-item">
+              <h4 class="content__header content__header_tablet">
+                Онлайн тестирование
+              </h4>
+              <p class="content__item content__item_tablet content__item-list">
+                За 20 минут узнаем о вашем текущем образе жизни. Вы ответите на
+                вопросы, и мы определим ваши физиологические особенности,
+                текущий пищевой и питьевой режим, а также физическую активность.
+              </p>
+            </li>
+            <li class="best-offer__item analysis-item">
+              <img class="best__offer-mobile-img" src="./assets/img/radar_image.png" alt="">
+              <h4 class="content__header content__header_tablet">
+                Модуль анализа
+              </h4>
+              <p class="content__item content__item_tablet content__item-list">
+                Проанализируем текущий рацион, поможем сформулировать ваши цели
+                и выявить нормы питания.
+              </p>
+            </li>
+            <li class="best-offer__item access-item">
+              <img class="best__offer-mobile-img" src="./assets/img/chat_image.png" alt="">
+              <h4 class="content__header content__header_tablet">
+                Доступ в чат
+              </h4>
+              <p class="content__item content__item_tablet content__item-list">
+                Доступ в закрытый чат в Telegram с членом Ассоциации диетологов
+                для дополнительных консультаций.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="answers">
+        <div class="wrapper">
+          <h2 class="subheading heading-answer">Ответы на вопросы</h2>
+
+          <ul class="accordion__list">
+            <li class="accordion accordion-mobile">
+              <label for="accordion-1" class="accordion__header">
+                <p class="accordion__heading">Сколько это стоит?</p>
+                <div class="accordion__chevron">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16 2V30M2 16H30"
+                      stroke="#656666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </label>
+              <input
+                class="accordion-input__togler"
+                type="checkbox"
+                name=""
+                id="accordion-1"
+              />
+              <div class="accordion__body">
+                <p class="accordion__text">
+                  Индивидуальный подбор плана питания, онлайн тестирование,
+                  модуль анализа, доступ в закрытый чат с экспертом.
+                </p>
+              </div>
+            </li>
+            <li class="accordion">
+              <label for="accordion-2" class="accordion__header">
+                <p class="accordion__heading">Что входит в подбор?</p>
+                <div class="accordion__chevron">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16 2V30M2 16H30"
+                      stroke="#656666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </label>
+              <input
+                class="accordion-input__togler"
+                type="checkbox"
+                name=""
+                id="accordion-2"
+              />
+              <div class="accordion__body">
+                <p class="accordion__text">
+                  Индивидуальный подбор плана питания, онлайн тестирование,
+                  модуль анализа, доступ в закрытый чат с экспертом.
+                </p>
+              </div>
+            </li>
+            <li class="accordion">
+              <label for="accordion-3" class="accordion__header">
+                <p class="accordion__heading">Как вернуть средства?</p>
+                <div class="accordion__chevron">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16 2V30M2 16H30"
+                      stroke="#656666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </label>
+              <input
+                class="accordion-input__togler"
+                type="checkbox"
+                name=""
+                id="accordion-3"
+              />
+              <div class="accordion__body">
+                <p class="accordion__text">
+                  Индивидуальный подбор плана питания, онлайн тестирование,
+                  модуль анализа, доступ в закрытый чат с экспертом.
+                </p>
+              </div>
+            </li>
+            <li class="accordion">
+              <label for="accordion-4" class="accordion__header">
+                <p class="accordion__heading">Почему это выгодно?</p>
+                <div class="accordion__chevron">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16 2V30M2 16H30"
+                      stroke="#656666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </label>
+              <input
+                class="accordion-input__togler"
+                type="checkbox"
+                name=""
+                id="accordion-4"
+              />
+              <div class="accordion__body">
+                <p class="accordion__text">
+                  Индивидуальный подбор плана питания, онлайн тестирование,
+                  модуль анализа, доступ в закрытый чат с экспертом.
+                </p>
+              </div>
+            </li>
+            <li class="accordion">
+              <label for="accordion-5" class="accordion__header">
+                <p class="accordion__heading accordion__heading-mobile">Какие гарантии качества?</p>
+                <div class="accordion__chevron">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16 2V30M2 16H30"
+                      stroke="#656666"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </label>
+              <input
+                class="accordion-input__togler"
+                type="checkbox"
+                name=""
+                id="accordion-5"
+              />
+              <div class="accordion__body">
+                <p class="accordion__text">
+                  Индивидуальный подбор плана питания, онлайн тестирование,
+                  модуль анализа, доступ в закрытый чат с экспертом.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer-top">
+          <a class="footer-top__logo-link">
+            <img
+              class="footer-top__logo"
+              src="./assets/icons/fresh.svg"
+              alt=""
+            />
+            <p class="footer-top__logo-text">подбор плана питания</p>
+          </a>
+          <a class="footer-top__tel" href="">+7 (950) 567-11-22</a>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-bottom__fresh">@ Фреш, 2022</p>
+          <div class="footer-bottom__links">
+            <a class="links__mail" href="">example@yandex.ru</a>
+            <a class="links__contract links__contract-mobile" href=""
+              >Договор оферты</a
+            >
+            <a class="links__privacy-policy" href=""
+              >Политика конфиденциальности</a
+            >
+          </div>
+          <p class="footer-bottom__fresh footer-bottom__fresh-mobile">
+            @ Фреш, 2022
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
