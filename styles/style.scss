@@ -1025,6 +1025,8 @@ body {
     background-image: none;
     display: block;
     text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -1233,6 +1235,8 @@ body {
     background-image: none;
     display: block;
     text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     justify-content: center;
