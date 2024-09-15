@@ -781,6 +781,7 @@ body {
   padding: 16px 48px;
   background: #1e1f1f;
   margin-top: 32px;
+  border: none;
 }
 .access-btn:hover {
   background-color: #323333;

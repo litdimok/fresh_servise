@@ -634,6 +634,7 @@ body {
   padding: 16px 48px;
   background: $text_main;
   margin-top: 32px;
+  border: none;
 
   &:hover {
     background-color: $state_surface_tertiaryhover;
